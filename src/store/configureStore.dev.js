@@ -1,6 +1,8 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import rootReducer from '../reducers';
-import createLogger from 'redux-logger';
+import createLogger from 'redux-logger'
+import sagaMiddleware from 'redux-saga'
+import rootSaga from '../sagas'
 import thunk from 'redux-thunk';
 import DevTools from '../containers/DevTools';
 
@@ -14,7 +16,7 @@ const logger = createLogger();
 
 const finalCreateStore = compose(
   // Middleware you want to use in development:
-  applyMiddleware(logger, thunk),
+  applyMiddleware(logger, thunk, sagaMiddleware(rootSaga)),
   // Required! Enable Redux DevTools with the monitors you chose
   DevTools.instrument()
 )(createStore);

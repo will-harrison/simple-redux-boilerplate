@@ -26,7 +26,7 @@ export default class App extends Component {
 }
 
 App.propTypes = {
-  counter: PropTypes.number.isRequired,
+  count: PropTypes.number.isRequired,
   actions: PropTypes.object.isRequired
 };
 
@@ -37,7 +37,7 @@ App.propTypes = {
  */
 function mapStateToProps(state) {
   return {
-    counter: state.counter
+    count: state.count
   };
 }
 

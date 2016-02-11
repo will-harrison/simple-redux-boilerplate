@@ -1,11 +1,12 @@
-import { createStore, applyMiddleware, compose } from 'redux';
-import rootReducer from '../reducers';
-import thunk from 'redux-thunk';
+import { createStore, applyMiddleware, compose } from 'redux'
+import rootReducer from '../reducers'
+import rootSaga from '../sagas'
+import thunk from 'redux-thunk'
 
 const finalCreateStore = compose(
-  applyMiddleware(thunk)
-)(createStore);
+  applyMiddleware(thunk, sagaMiddleware(rootSaga))
+)(createStore)
 
 module.exports = function configureStore(initialState) {
-  return finalCreateStore(rootReducer, initialState);
-};
+  return finalCreateStore(rootReducer, initialState)
+}
