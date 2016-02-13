@@ -5,11 +5,12 @@ const initialState = {
 }
 
 export default function counter(state = initialState, action) {
+  console.log("state", state);
   switch (action.type) {
+  case INCREMENT_COUNTER_COMPLETE:
+    return { ...state, count }
   case INCREMENT_COUNTER:
-    return { ...state, count };
   case DECREMENT_COUNTER:
-    return { ...state, count };
   default:
     return { ...state };
   }

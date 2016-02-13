@@ -1,5 +1,5 @@
 import { take, put, call, fork } from 'redux-saga'
-import * as actions from '../constants/ActionTypes'
+import * as actions from './CountActions'
 
 console.log(actions.INCREMENT_COUNTER);
 
