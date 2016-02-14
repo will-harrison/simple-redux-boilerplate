@@ -1,27 +1,17 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER, INCREMENT_COUNTER_COMPLETE } from '../constants/ActionTypes'
+import { INCREMENT_COUNTER, DECREMENT_COUNTER } from '../constants/ActionTypes';
 
 const initialState = {
   count: 0,
 }
 
 export default function counter(state = initialState, action) {
+  console.log("state", state);
   switch (action.type) {
-  case INCREMENT_COUNTER:
-    return {
-      ...state
-    }
   case INCREMENT_COUNTER_COMPLETE:
-    return {
-      ...state,
-      count
-    }
+    return { ...state, count }
+  case INCREMENT_COUNTER:
   case DECREMENT_COUNTER:
-    return {
-      ...state
-    }
   default:
-    return {
-      ...state
-    }
+    return { ...state };
   }
 }

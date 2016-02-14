@@ -3,11 +3,16 @@ import * as actions from '../constants/ActionTypes'
 
 console.log(actions.INCREMENT_COUNTER);
 
-function* increment() {
+function* increment(getState) {
   while (true) {
     yield take( actions.INCREMENT_COUNTER )
+<<<<<<< HEAD
+    let countUp = getState().count + 1
+    yield put({ type: INCREMENT_COUNTER_COMPLETE, countUp })
+=======
     yield call(console.log("incrementing"))
     yield put( actions.INCREMENT_COUNTER_COMPLETE )
+>>>>>>> 403170533d00a1a069cbe69c4d4c96c3ce28706b
   }
 }
 
@@ -16,7 +21,7 @@ function* decrement() {
 }
 
 
-export default function* rootSaga() {
-  yield fork(increment)
+export default function* rootSaga(getState) {
+  yield fork(increment, getState)
   // yield fork(decrement)
 }
