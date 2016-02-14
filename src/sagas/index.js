@@ -1,22 +1,7 @@
 import { take, put, call, fork } from 'redux-saga'
-import * as actions from '../constants/ActionTypes'
 
-console.log(actions.INCREMENT_COUNTER);
+import * as CountSaga from '../Count/CountSaga'
 
-function* increment() {
-  while (true) {
-    yield take( actions.INCREMENT_COUNTER )
-    yield call(console.log("incrementing"))
-    yield put( actions.INCREMENT_COUNTER_COMPLETE )
-  }
-}
+const sagas = [ CountSaga ]
 
-function* decrement() {
-  yield put({ type: DECREMENT_COUNTER, count })
-}
-
-
-export default function* rootSaga() {
-  yield fork(increment)
-  // yield fork(decrement)
-}
+export default sagas

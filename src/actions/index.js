@@ -1,20 +1,7 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER, INCREMENT_COUNTER_COMPLETE } from '../constants/ActionTypes'
+import * as CountActions from '../Count/CountActions'
 
-export function increment(count) {
-  return {
-    type: INCREMENT_COUNTER,
-  }
+const actions = {
+  CountActions,
 }
 
-export function increment_complete(count) {
-  return {
-    type: INCREMENT_COUNTER_COMPLETE,
-    count
-  }
-}
-
-export function decrement(count) {
-  return {
-    type: DECREMENT_COUNTER,
-  }
-}
+export default actions

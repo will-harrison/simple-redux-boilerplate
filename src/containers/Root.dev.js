@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import App from './App';
+// import App from './App';
+import CountApp from '../Count/CountApp'
 import DevTools from './DevTools';
 
 /**
@@ -18,7 +19,7 @@ module.exports = class Root extends Component {
        */
       <Provider store={store}>
         <div>
-          <App />
+          <CountApp />
           {/* Being the dev version of our Root component, we include DevTools below */}
           <DevTools />
         </div>

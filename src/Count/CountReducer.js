@@ -1,11 +1,10 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER } from './CountActions';
+import { INCREMENT_COUNTER, DECREMENT_COUNTER, INCREMENT_COUNTER_COMPLETE } from './CountActions';
 
 const initialState = {
   count: 0,
 }
 
 export default function counter(state = initialState, action) {
-  console.log("state", state);
   switch (action.type) {
     case INCREMENT_COUNTER_COMPLETE:
       return { ...state, count }
