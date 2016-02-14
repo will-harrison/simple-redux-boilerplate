@@ -16,9 +16,10 @@ const logger = createLogger();
 
 const finalCreateStore = compose(
   // Middleware you want to use in development:
+    // sagaMiddleware(...sagas),
     applyMiddleware(logger,
     // thunk,
-    sagaMiddleware(...sagas)
+
   ),
   // Required! Enable Redux DevTools with the monitors you chose
   DevTools.instrument()

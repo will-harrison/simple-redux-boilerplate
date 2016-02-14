@@ -3,13 +3,14 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as CountActions from './CountActions';
 import Counter from './components/Counter';
+import Footer from '../commonComponents/Footer'
 
 /**
  * It is common practice to have a 'Root' container/component require our main App (this one).
  * Again, this is because it serves to wrap the rest of our application with the Provider
  * component to make the Redux store available to the rest of the app.
  */
-export default class App extends Component {
+export default class CountApp extends Component {
   render() {
     // we can use ES6's object destructuring to effectively 'unpack' our props
     const { count, actions } = this.props;
@@ -24,7 +25,7 @@ export default class App extends Component {
   }
 }
 
-App.propTypes = {
+CountApp.propTypes = {
   count: PropTypes.number.isRequired,
   actions: PropTypes.object.isRequired
 };
@@ -50,7 +51,7 @@ function mapStateToProps(state) {
  */
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(CounterActions, dispatch)
+    actions: bindActionCreators(CountActions, dispatch)
   };
 }
 
@@ -65,4 +66,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App);
+)(CountApp);
