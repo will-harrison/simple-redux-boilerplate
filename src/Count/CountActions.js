@@ -8,7 +8,7 @@ export function increment() {
   }
 }
 
-export function increment_complete(count) {
+export function incrementCounterComplete(count) {
   return {
     type: INCREMENT_COUNTER_COMPLETE,
     count

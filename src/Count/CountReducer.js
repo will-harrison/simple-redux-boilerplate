@@ -7,7 +7,8 @@ const initialState = {
 export default function counter(state = initialState, action) {
   switch (action.type) {
     case INCREMENT_COUNTER_COMPLETE:
-      return { ...state, CountReducer }
+      return { ...state,
+        count }
     case INCREMENT_COUNTER:
     case DECREMENT_COUNTER:
     default:
