@@ -37,7 +37,7 @@ CountApp.propTypes = {
  */
 function mapStateToProps(state) {
   return {
-    count: state.count
+    count: state.CountReducer.count
   };
 }
 

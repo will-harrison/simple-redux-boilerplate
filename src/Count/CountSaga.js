@@ -3,15 +3,15 @@ import * as actions from './CountActions'
 
 
 function* increment() {
+  console.log("incrementing?");
   while (true) {
     yield take( actions.INCREMENT_COUNTER )
-    yield call(console.log("incrementing"))
-    yield put( actions.INCREMENT_COUNTER_COMPLETE, count )
+    // yield put( actions.INCREMENT_COUNTER_COMPLETE, count )
   }
 }
 
 function* decrement() {
-  yield put({ type: DECREMENT_COUNTER, count })
+  yield put({ type: actions.DECREMENT_COUNTER, count })
 }
 
 

@@ -16,7 +16,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div className="counter-container">
-        <div className="counter-num-label">{this.props.count}</div>
+        <div className="counter-num-label">hello{this.props.count}</div>
         {/* Below, the even or odd statement is simply used to demonstrate how one could
         easily use a ternary operator to conditionally show an 'even' or 'odd' string
         based on the counter's value on state. */}
@@ -32,6 +32,6 @@ export default class Counter extends Component {
 }
 
 Counter.propTypes = {
-  counter: PropTypes.number.isRequired,
+  count: PropTypes.number.isRequired,
   actions: PropTypes.object.isRequired
 };
