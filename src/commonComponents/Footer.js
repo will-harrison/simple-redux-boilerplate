@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <span id="footer-text-wrap">
-        An evil experiment <span id="heart">♥</span> by Raygun Labs.
+        Another evil experiment <span id="heart">♥</span> by Raygun Labs.
         </span>
       </footer>
     );

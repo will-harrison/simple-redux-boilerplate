@@ -1,0 +1,1126 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DECR",
+				"DECCREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"DE",
+				"DECREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"Coun",
+				"CountSaga"
+			],
+			[
+				"Count",
+				"CountReducer"
+			],
+			[
+				"saga",
+				"sagaMiddleware"
+			],
+			[
+				"Cou",
+				"CountSaga"
+			],
+			[
+				"in",
+				"INCREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"owe",
+				"owner"
+			],
+			[
+				"List",
+				"ListGroupItem"
+			],
+			[
+				"Ass",
+				"Assignment"
+			],
+			[
+				"Spar",
+				"Sparklines"
+			],
+			[
+				"caus",
+				"causes"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"crea",
+				"createClass"
+			],
+			[
+				"inc",
+				"incident"
+			],
+			[
+				"creat",
+				"createClass"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"ListG",
+				"ListGroup"
+			],
+			[
+				"from",
+				"fromNow"
+			],
+			[
+				"Cre",
+				"createdAt"
+			],
+			[
+				"created",
+				"createdBy"
+			],
+			[
+				"met",
+				"metric"
+			],
+			[
+				"_cas",
+				"_caseField"
+			],
+			[
+				"up",
+				"updateData"
+			],
+			[
+				"tabl",
+				"tableRecord"
+			],
+			[
+				"tab",
+				"tableName"
+			],
+			[
+				"upd",
+				"updateStatement"
+			],
+			[
+				"update",
+				"updateData"
+			],
+			[
+				"app",
+				"appliances"
+			],
+			[
+				"v",
+				"venue"
+			],
+			[
+				"ListGro",
+				"ListGroupItem"
+			],
+			[
+				"ve",
+				"venues"
+			],
+			[
+				"appl",
+				"appliances"
+			],
+			[
+				"computed",
+				"computedProperties"
+			],
+			[
+				"mo",
+				"modified_by"
+			],
+			[
+				"cre",
+				"created_by"
+			],
+			[
+				"ap",
+				"appliances"
+			],
+			[
+				"appli",
+				"appliances"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Count/CountReducer.js",
+			"settings":
+			{
+				"buffer_size": 541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/sagas/index.js",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/commonComponents/Footer.js",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Count/CountActions.js",
+			"settings":
+			{
+				"buffer_size": 633,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "wrap",
+		"selected_items":
+		[
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"diff",
+				"Modific: Show diff"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/raygun/labs/simple-redux-boilerplate",
+		"/raygun/labs/simple-redux-boilerplate/src",
+		"/raygun/labs/simple-redux-boilerplate/src/Count",
+		"/raygun/labs/simple-redux-boilerplate/src/Count/components",
+		"/raygun/labs/simple-redux-boilerplate/src/actions",
+		"/raygun/labs/simple-redux-boilerplate/src/commonComponents",
+		"/raygun/labs/simple-redux-boilerplate/src/reducers",
+		"/raygun/labs/simple-redux-boilerplate/src/sagas",
+		"/raygun/labs/simple-redux-boilerplate/src/store"
+	],
+	"file_history":
+	[
+		"/raygun/labs/simple-redux-boilerplate/src/store/configureStore.dev.js",
+		"/raygun/labs/simple-redux-boilerplate/src/reducers/index.js",
+		"/raygun/labs/simple-redux-boilerplate/src/containers/App.xjs",
+		"/raygun/labs/simple-redux-boilerplate/src/actions/index.js",
+		"/raygun/labs/simple-redux-boilerplate/src/components/Counter.js",
+		"/raygun/labs/simple-redux-boilerplate/src/Count/CountActions.js",
+		"/raygun/labs/simple-redux-boilerplate/src/actions/CounterActions.js",
+		"/raygun/labs/simple-redux-boilerplate/src/Count/CountApp.js",
+		"/raygun/labs/simple-redux-boilerplate/src/store/configureStore.prod.js",
+		"/raygun/labs/simple-redux-boilerplate/src/Count/CountSaga.js",
+		"/raygun/labs/simple-redux-boilerplate/src/sagas/index.js",
+		"/raygun/labs/simple-redux-boilerplate/src/containers/App.js",
+		"/raygun/labs/simple-redux-boilerplate/src/reducers/counter.js",
+		"/raygun/labs/simple-redux-boilerplate/src/constants/ActionTypes.js",
+		"/home/will/.i3/i3status.conf",
+		"/home/will/.i3/config",
+		"/var/log/syslog",
+		"/home/will/.bashrc",
+		"/etc/apt/sources.list.d/virtualbox.list",
+		"/sptio/projects/kiwi/models/incidents.js",
+		"/sptio/projects/kiwi/models/devicesExtensions.js",
+		"/sptio/projects/kiwi/models/appliances.js",
+		"/sptio/projects/kiwi/services/incidents/incidents.sql",
+		"/sptio/projects/kiwi/services/incidents/incidentsService.js",
+		"/sptio/projects/kiwi/services/devices/measurementsService.js",
+		"/sptio/projects/kiwi/models/incidentsExtensions.js",
+		"/sptio/projects/kiwi/models/migrations/up-0.sql",
+		"/sptio/projects/kiwi/models/appliancesExtensions.js",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incidents.jsx",
+		"/sptio/projects/kiwi/models/sku.js",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliance.jsx",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliances.jsx",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesController.js",
+		"/sptio/projects/sedna-data/src/elementals.js",
+		"/sptio/projects/kiwi/models/metric.js",
+		"/sptio/projects/kiwi/models/devices.js",
+		"/sptio/projects/sedna-server/src/server.js",
+		"/sptio/projects/sedna-data/src/createUnion.js",
+		"/sptio/projects/kiwi/services/orgs/orgs.sql",
+		"/sptio/projects/kiwi/services/appliances/appliancesService.js",
+		"/sptio/projects/kiwi/services/devices/devicesService.js",
+		"/sptio/projects/sedna-data/src/core.js",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incident.jsx",
+		"/sptio/projects/kiwi/services/venues/venuesService.js",
+		"/sptio/projects/kiwi/package.json",
+		"/sptio/projects/kiwi/services/venues/venues.sql",
+		"/sptio/projects/kiwi/services/appliances/appliances.sql",
+		"/sptio/projects/kiwi/app/theme/bootstrap.js",
+		"/sptio/projects/kiwi/models/venue.js",
+		"/sptio/projects/kiwi/workers/scanner.js",
+		"/sptio/projects/kiwi/services/users/users.sql",
+		"/sptio/projects/kiwi/models/appliance.js",
+		"/sptio/projects/kiwi/services/metrics/measurementsService.js",
+		"/sptio/projects/kiwi/services/metrics/metricsService.js",
+		"/sptio/projects/kiwi/models/device.js",
+		"/sptio/projects/kiwi/services/devices/devices.sql",
+		"/sptio/projects/sedna-data/src/model.js",
+		"/sptio/projects/kiwi/models/incident.js",
+		"/sptio/projects/kiwi/app/theme/index.styl",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incidentsController.js",
+		"/sptio/projects/kiwi/models/incidentMessage.js",
+		"/sptio/projects/kiwi/lib/types/sku.js",
+		"/sptio/projects/kiwi/lib/types/metric.js",
+		"/sptio/projects/kiwi/app/dashboard/dashboard.jsx",
+		"/sptio/projects/kiwi/.jscsrc",
+		"/sptio/projects/kiwi/temp/lintThis.js",
+		"/sptio/projects/kiwi/README.md",
+		"/sptio/projects/kiwi/services/users/usersService.js",
+		"/sptio/projects/kiwi/services/metrics/metrics.sql",
+		"/sptio/projects/kiwi/services/events/events.sql",
+		"/sptio/projects/kiwi/services/events/eventsService.js",
+		"/sptio/projects/kiwi/services/orgs/orgsService.js",
+		"/sptio/projects/kiwi/app/dashboard/appliances/chartData.js",
+		"/sptio/projects/kiwi/app/.chartistExample",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesData.js",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliance.html",
+		"/sptio/projects/sedna-container/src/container.js",
+		"/home/will/projects/kiwi/src/announce.js",
+		"/home/will/projects/kiwi/node_modules/ember-cli/node_modules/bower/node_modules/bower-registry-client/node_modules/request/index.js",
+		"/home/will/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DECREMENT_COUNTER",
+			"INCREMENT_COUNTER",
+			"),\n",
+			"this.props.counter",
+			"INCREMENT_COUNTER",
+			";",
+			"bar",
+			"\n\n",
+			"trk=contacts-contacts-list-contact_name-0",
+			"view?trk=contacts-contacts-list-contact_name-0&",
+			"div",
+			"n",
+			"state",
+			"filter",
+			"log",
+			"({metric})",
+			"cause",
+			"filter",
+			"div",
+			"status",
+			"state",
+			"Incident",
+			"value",
+			"messageValue",
+			"say",
+			"Say",
+			"say",
+			"onSay",
+			"say",
+			"div",
+			"3",
+			"assign",
+			"Assign",
+			"li",
+			"state",
+			"matchingKey",
+			"_",
+			"humidity",
+			"Cause",
+			"org",
+			"postg",
+			"lock",
+			"li",
+			"ul",
+			"li",
+			"ul",
+			"shift+d",
+			"Shift",
+			"div",
+			"project",
+			"venues",
+			"console",
+			"map",
+			"grav",
+			"venue",
+			",",
+			":",
+			"declaration",
+			"[]",
+			"A'",
+			"'{0}', now()",
+			", now()",
+			",now()",
+			"},",
+			"{\"",
+			"appliances",
+			"appliance",
+			"appliances",
+			"appliance",
+			"appliances",
+			"appliance",
+			"Appliance",
+			"appliances",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"appliances",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"appliances",
+			"node",
+			"var",
+			"MeasurementsList",
+			"toLower",
+			"| lower",
+			"metrics",
+			"class=",
+			"class",
+			"}}",
+			"{{",
+			"class",
+			"div",
+			"appliances",
+			"bar",
+			"volume",
+			"bar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Count/CountReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 66.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/sagas/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/commonComponents/Footer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Count/CountActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": "boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"counter",
+				"src/components/Counter.js"
+			],
+			[
+				"countapp",
+				"src/Count/CountApp.js"
+			],
+			[
+				"countera",
+				"src/actions/CounterActions.js"
+			],
+			[
+				"up",
+				"kiwi/models/migrations/up-0.sql"
+			],
+			[
+				"de",
+				"kiwi/models/devicesExtensions.js"
+			],
+			[
+				"applex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"applia",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"inc",
+				"kiwi/app/dashboard/incidents/incidents.jsx"
+			],
+			[
+				"incsql",
+				"kiwi/services/incidents/incidents.sql"
+			],
+			[
+				"incser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"incidentsex",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"appl",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"sku",
+				"kiwi/models/sku.js"
+			],
+			[
+				"meas",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"appliancesc",
+				"kiwi/app/dashboard/appliances/appliancesController.js"
+			],
+			[
+				"ele",
+				"sedna-data/src/elementals.js"
+			],
+			[
+				"device",
+				"kiwi/models/devicesExtensions.js"
+			],
+			[
+				"metri",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"incidents",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"incid",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"applijsx",
+				"kiwi/app/dashboard/appliances/appliances.jsx"
+			],
+			[
+				"appli",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"measur",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"devi",
+				"kiwi/models/devices.js"
+			],
+			[
+				"incident",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"inciser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"appliex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"appliancesjsx",
+				"kiwi/app/dashboard/appliances/appliances.jsx"
+			],
+			[
+				"app",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"devic",
+				"kiwi/models/devices.js"
+			],
+			[
+				"ser",
+				"sedna-server/src/server.js"
+			],
+			[
+				"createun",
+				"sedna-data/src/createUnion.js"
+			],
+			[
+				"incidentsexte",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"metric",
+				"kiwi/models/metric.js"
+			],
+			[
+				"metr",
+				"kiwi/models/metric.js"
+			],
+			[
+				"incex",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"org",
+				"kiwi/services/orgs/orgs.sql"
+			],
+			[
+				"dev",
+				"kiwi/models/devices.js"
+			],
+			[
+				"devicesser",
+				"kiwi/services/devices/devicesService.js"
+			],
+			[
+				"inicide",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"applic",
+				"kiwi/app/dashboard/appliances/appliancesController.js"
+			],
+			[
+				"inccont",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"appliser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"applser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"inci",
+				"kiwi/app/dashboard/incidents/incident.jsx"
+			],
+			[
+				"measure",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"serv",
+				"sedna-server/src/server.js"
+			],
+			[
+				"models/inc",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"json",
+				"kiwi/package.json"
+			],
+			[
+				"incjs",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"venues",
+				"kiwi/services/venues/venuesService.js"
+			],
+			[
+				"applisql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"incidentser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"orgs",
+				"kiwi/services/orgs/orgs.sql"
+			],
+			[
+				"venue",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"incjsx",
+				"kiwi/app/dashboard/incidents/incident.jsx"
+			],
+			[
+				"boot",
+				"kiwi/app/theme/bootstrap.js"
+			],
+			[
+				"exte",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"appli.js",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"appser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"server",
+				"sedna-server/src/server.js"
+			],
+			[
+				"applince",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"ven",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"appsql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"venu",
+				"kiwi/models/venue.js"
+			],
+			[
+				"applia.",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"appliances",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"scann",
+				"kiwi/workers/scanner.js"
+			],
+			[
+				"ex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"appjsx",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"users",
+				"kiwi/services/users/users.sql"
+			],
+			[
+				"venueq",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"meau",
+				"kiwi/services/metrics/measurementsService.js"
+			],
+			[
+				"appjs",
+				"kiwi/models/appliance.js"
+			],
+			[
+				"devsql",
+				"kiwi/services/devices/devices.sql"
+			],
+			[
+				"incide",
+				"kiwi/models/incidentMessage.js"
+			],
+			[
+				"appliance.js",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"incidentscon",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"incidentscontr",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"incident.js",
+				"kiwi/models/incident.js"
+			],
+			[
+				"incidentmess",
+				"kiwi/models/incidentMessage.js"
+			],
+			[
+				"model",
+				"sedna-data/src/model.js"
+			],
+			[
+				"jscs",
+				"kiwi/.jscsrc"
+			],
+			[
+				"read",
+				"kiwi/README.md"
+			],
+			[
+				".c",
+				"kiwi/app/.chartistExample"
+			],
+			[
+				"chart",
+				"kiwi/app/.chartistExample"
+			],
+			[
+				"applianceda",
+				"kiwi/app/dashboard/appliances/appliancesData.js"
+			],
+			[
+				"applliance.html",
+				"kiwi/app/dashboard/appliances/appliance.html"
+			],
+			[
+				".sql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"contain",
+				"sedna-container/src/container.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/sptio/projects/stdTrend/trend.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 285.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"extend",
+				"extendTypes"
+			],
+			[
+				"exte",
+				"extendTypes"
+			],
+			[
+				"model",
+				"modelDidInflate"
+			],
+			[
+				"any",
+				"any"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
