@@ -51,6 +51,7 @@
     "react-dom": "^0.14.3",
     "react-redux": "^4.1.1",
     "redux-saga": "^0.7.0",
-    "redux-thunk": "^1.0.3"
+    "redux-thunk": "^1.0.3",
+    "rethinkdbdash": "^2.2.17"
   }
 }

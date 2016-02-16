@@ -16,7 +16,7 @@ export default class CountApp extends Component {
     const { count, actions } = this.props;
     return (
       <div className="main-app-container">
-        <div className="main-app-nav">GET REDUX SAGAS WORKING</div>
+        <div className="main-app-nav">REDUX SAGAS ARE WORKING</div>
         {/* notice that we then pass those unpacked props into the Counter component */}
         <Counter count={count} actions={actions} />
         <Footer />

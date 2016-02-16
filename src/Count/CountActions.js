@@ -25,5 +25,6 @@ export function decrement() {
 export function decrementCounterComplete(count) {
   return {
     type: DECREMENT_COUNTER_COMPLETE,
+    count
   }
 }

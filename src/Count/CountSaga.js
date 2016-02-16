@@ -2,24 +2,31 @@ import { take, put, call, fork } from 'redux-saga'
 import * as actions from './CountActions'
 
 
-function* increment() {
-  console.log("incrementing?");
-  while (true) {
-    yield take( actions.INCREMENT_COUNTER )
-    // yield put( actions.INCREMENT_COUNTER_COMPLETE, count )
+export function* reporter(val) {
+  console.log("SAGA IS ", val);
+}
+
+// import * as CountSaga from '../Count/CountSaga'
+export function* watchIncrement(getState) {
+  while(true) {
+    yield take(actions.INCREMENT_COUNTER)
+    const countIncremented = getState().CountReducer.count + 1
+    yield put({ type: actions.INCREMENT_COUNTER_COMPLETE, count: countIncremented })
   }
 }
 
-function* decrement() {
-  yield put({ type: actions.DECREMENT_COUNTER, count })
+export function* watchDecrement(getState) {
+  while(true) {
+    yield take(actions.DECREMENT_COUNTER)
+    const countDecremented = getState().CountReducer.count - 1
+    yield put({ type: actions.DECREMENT_COUNTER_COMPLETE, count: countDecremented })
+  }
 }
 
 
-export default function* rootSaga() {
-  console.log("rootSaga starting");
-  yield fork(increment)
-  // yield fork(decrement)
+export default function* rootSaga(getState) {
+  yield [
+    fork(watchIncrement, getState),
+    fork(watchDecrement, getState)
+  ]
 }
-const sagas = [ rootSaga ]
-
-export default sagas
