@@ -1,0 +1,1350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Cou",
+				"CountSaga"
+			],
+			[
+				"INC",
+				"INCREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"Coun",
+				"CountSaga"
+			],
+			[
+				"count",
+				"CountActions"
+			],
+			[
+				"C",
+				"CountActions"
+			],
+			[
+				"IN",
+				"INCREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"root",
+				"rootSaga"
+			],
+			[
+				"gro",
+				"grossMarginPercent"
+			],
+			[
+				"lens",
+				"lensGroup"
+			],
+			[
+				"Tren",
+				"TrendActions"
+			],
+			[
+				"ini",
+				"initialTrend"
+			],
+			[
+				"Trend",
+				"TrendApp"
+			],
+			[
+				"event",
+				"events"
+			],
+			[
+				"Pul",
+				"PulseApp"
+			],
+			[
+				"ba",
+				"baseUser"
+			],
+			[
+				"Tre",
+				"TrendApp"
+			],
+			[
+				"wee",
+				"weekEndDate"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"go",
+				"goToParent"
+			],
+			[
+				"owe",
+				"owner"
+			],
+			[
+				"List",
+				"ListGroupItem"
+			],
+			[
+				"Ass",
+				"Assignment"
+			],
+			[
+				"Spar",
+				"Sparklines"
+			],
+			[
+				"caus",
+				"causes"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"crea",
+				"createClass"
+			],
+			[
+				"inc",
+				"incident"
+			],
+			[
+				"creat",
+				"createClass"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"ListG",
+				"ListGroup"
+			],
+			[
+				"from",
+				"fromNow"
+			],
+			[
+				"Cre",
+				"createdAt"
+			],
+			[
+				"created",
+				"createdBy"
+			],
+			[
+				"met",
+				"metric"
+			],
+			[
+				"_cas",
+				"_caseField"
+			],
+			[
+				"up",
+				"updateData"
+			],
+			[
+				"tabl",
+				"tableRecord"
+			],
+			[
+				"tab",
+				"tableName"
+			],
+			[
+				"upd",
+				"updateStatement"
+			],
+			[
+				"update",
+				"updateData"
+			],
+			[
+				"app",
+				"appliances"
+			],
+			[
+				"v",
+				"venue"
+			],
+			[
+				"ListGro",
+				"ListGroupItem"
+			],
+			[
+				"ve",
+				"venues"
+			],
+			[
+				"appl",
+				"appliances"
+			],
+			[
+				"computed",
+				"computedProperties"
+			],
+			[
+				"mo",
+				"modified_by"
+			],
+			[
+				"cre",
+				"created_by"
+			],
+			[
+				"ap",
+				"appliances"
+			],
+			[
+				"appli",
+				"appliances"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Count/CountReducer.js",
+			"settings":
+			{
+				"buffer_size": 541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Count/CountActions.js",
+			"settings":
+			{
+				"buffer_size": 633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Count/CountSaga.js",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Count/CountApp.js",
+			"settings":
+			{
+				"buffer_size": 2388,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "javas",
+		"selected_items":
+		[
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"min",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"diff",
+				"Modific: Show diff"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/raygun/simple-redux-boilerplate",
+		"/raygun/simple-redux-boilerplate/src",
+		"/raygun/simple-redux-boilerplate/src/Count",
+		"/raygun/simple-redux-boilerplate/src/Shuffle",
+		"/raygun/simple-redux-boilerplate/src/components",
+		"/raygun/simple-redux-boilerplate/src/constants",
+		"/raygun/simple-redux-boilerplate/src/store"
+	],
+	"file_history":
+	[
+		"/raygun/simple-redux-boilerplate/src/sagas/index.js",
+		"/raygun/simple-redux-boilerplate/src/store/configureStore.dev.js",
+		"/raygun/simple-redux-boilerplate/src/reducers/index.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountSaga.js",
+		"/raygun/simple-redux-boilerplate/src/containers/Root.dev.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountApp.js",
+		"/raygun/simple-redux-boilerplate/src/containers/App.xjs",
+		"/raygun/simple-redux-boilerplate/src/Count/CountReducer.js",
+		"/raygun/simple-redux-boilerplate/src/actions/index.js",
+		"/raygun/simple-redux-boilerplate/src/constants/ActionTypes.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountActions.js",
+		"/raygun/simple-redux-boilerplate/src/Count/components/Counter.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CounterApp.js",
+		"/raygun/simple-redux-boilerplate/src/components/Counter.js",
+		"/raygun/simple-redux-boilerplate/src/actions/CounterActions.js",
+		"/raygun/simple-redux-boilerplate/src/containers/App.js",
+		"/raygun/simple-redux-boilerplate/src/reducers/counter.js",
+		"/raygun/simple-redux-boilerplate/index.html",
+		"/raygun/simple-redux-boilerplate/src/store/configureStore.prod.js",
+		"/raygun/simple-redux-boilerplate/src/components/Footer.js",
+		"/raygun/simple-redux-boilerplate/webpack.config.prod.js",
+		"/raygun/simple-redux-boilerplate/webpack.config.dev.js",
+		"/raygun/simple-redux-boilerplate/.babelrc",
+		"/sptio/project/ioInv/docs/queryTest.js",
+		"/sptio/project/ioInv/universal/Trend/TrendReducer.js",
+		"/raygun/simple-redux-boilerplate/devServer.js",
+		"/sptio/project/package.json",
+		"/home/will/.config/sublime-text-3/Packages/User/babel.sublime-build",
+		"/sptio/project/ioInv/.babelrc",
+		"/sptio/project/ioInv/package.json",
+		"/sptio/project/ioInv/client/app.js",
+		"/sptio/project/ioInv/universal/Trend/TrendActions.js",
+		"/sptio/project/ioInv/server/api/http.js",
+		"/sptio/project/ioInv/server/api/service/trendService.js",
+		"/sptio/project/ioInv/universal/Pulse/pulse.js",
+		"/sptio/project/ioInv/universal/Trend/components/Parent.js",
+		"/sptio/project/ioInv/universal/reducers.js",
+		"/sptio/project/ioInv/universal/routes.js",
+		"/sptio/project/ioInv/universal/Trend/TrendApp.js",
+		"/sptio/project/ioInv/universal/Trend/components/Lens.js",
+		"/sptio/projects/ioInv/package.json",
+		"/sptio/projects/ioInv/webpack.config.js",
+		"/sptio/projects/ioInv/client/app.js",
+		"/sptio/projects/ioInv/server/app.js",
+		"/sptio/projects/ioInv/server/views/index.ejs",
+		"/sptio/projects/ioInv/universal/Trend/helpers/nest.js",
+		"/sptio/projects/ioInv/server.webpack.js",
+		"/sptio/projects/ioInv/universal/Pulse/PulseApp.js",
+		"/sptio/projects/ioInv/universal/routes.js",
+		"/sptio/projects/ioInv/server.js",
+		"/sptio/projects/ioInv/server/api/http.js",
+		"/sptio/projects/ioInv/server/api/service/service.js",
+		"/sptio/labs/ioTrend/itemData.json",
+		"/sptio/labs/3ree/universal/reducers/index.js",
+		"/sptio/labs/ioTrend/index.html",
+		"/sptio/labs/ioTrend/itemData.js",
+		"/sptio/projects/ioInv/universal/Trend/TrendReducer.js",
+		"/sptio/projects/ioInv/server/api/service/trendService.js",
+		"/sptio/projects/ioInv/universal/Trend/TrendActions.js",
+		"/sptio/projects/ioInv/universal/Pulse/pulse.js",
+		"/sptio/projects/ioInv/universal/Trend/components/Parent.js",
+		"/sptio/projects/ioInv/weeklySales.json",
+		"/sptio/projects/ioInv/inventory.json",
+		"/sptio/projects/ioInv/item.json",
+		"/sptio/projects/ioInv/dbSetup.js",
+		"/sptio/projects/ioInv/config/default.json",
+		"/sptio/projects/ioInv/node_modules/config/lib/config.js",
+		"/home/will/.i3/i3status.conf",
+		"/home/will/.i3/config",
+		"/var/log/syslog",
+		"/home/will/.bashrc",
+		"/etc/apt/sources.list.d/virtualbox.list",
+		"/sptio/projects/kiwi/models/incidents.js",
+		"/sptio/projects/kiwi/models/devicesExtensions.js",
+		"/sptio/projects/kiwi/models/appliances.js",
+		"/sptio/projects/kiwi/services/incidents/incidents.sql",
+		"/sptio/projects/kiwi/services/incidents/incidentsService.js",
+		"/sptio/projects/kiwi/services/devices/measurementsService.js",
+		"/sptio/projects/kiwi/models/incidentsExtensions.js",
+		"/sptio/projects/kiwi/models/migrations/up-0.sql",
+		"/sptio/projects/kiwi/models/appliancesExtensions.js",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incidents.jsx",
+		"/sptio/projects/kiwi/models/sku.js",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliance.jsx",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliances.jsx",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesController.js",
+		"/sptio/projects/sedna-data/src/elementals.js",
+		"/sptio/projects/kiwi/models/metric.js",
+		"/sptio/projects/kiwi/models/devices.js",
+		"/sptio/projects/sedna-server/src/server.js",
+		"/sptio/projects/sedna-data/src/createUnion.js",
+		"/sptio/projects/kiwi/services/orgs/orgs.sql",
+		"/sptio/projects/kiwi/services/appliances/appliancesService.js",
+		"/sptio/projects/kiwi/services/devices/devicesService.js",
+		"/sptio/projects/sedna-data/src/core.js",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incident.jsx",
+		"/sptio/projects/kiwi/services/venues/venuesService.js",
+		"/sptio/projects/kiwi/package.json",
+		"/sptio/projects/kiwi/services/venues/venues.sql",
+		"/sptio/projects/kiwi/services/appliances/appliances.sql",
+		"/sptio/projects/kiwi/app/theme/bootstrap.js",
+		"/sptio/projects/kiwi/models/venue.js",
+		"/sptio/projects/kiwi/workers/scanner.js",
+		"/sptio/projects/kiwi/services/users/users.sql",
+		"/sptio/projects/kiwi/models/appliance.js",
+		"/sptio/projects/kiwi/services/metrics/measurementsService.js",
+		"/sptio/projects/kiwi/services/metrics/metricsService.js",
+		"/sptio/projects/kiwi/models/device.js",
+		"/sptio/projects/kiwi/services/devices/devices.sql",
+		"/sptio/projects/sedna-data/src/model.js",
+		"/sptio/projects/kiwi/models/incident.js",
+		"/sptio/projects/kiwi/app/theme/index.styl",
+		"/sptio/projects/kiwi/app/dashboard/incidents/incidentsController.js",
+		"/sptio/projects/kiwi/models/incidentMessage.js",
+		"/sptio/projects/kiwi/lib/types/sku.js",
+		"/sptio/projects/kiwi/lib/types/metric.js",
+		"/sptio/projects/kiwi/app/dashboard/dashboard.jsx",
+		"/sptio/projects/kiwi/.jscsrc",
+		"/sptio/projects/kiwi/temp/lintThis.js",
+		"/sptio/projects/kiwi/README.md",
+		"/sptio/projects/kiwi/services/users/usersService.js",
+		"/sptio/projects/kiwi/services/metrics/metrics.sql",
+		"/sptio/projects/kiwi/services/events/events.sql",
+		"/sptio/projects/kiwi/services/events/eventsService.js",
+		"/sptio/projects/kiwi/services/orgs/orgsService.js",
+		"/sptio/projects/kiwi/app/dashboard/appliances/chartData.js",
+		"/sptio/projects/kiwi/app/.chartistExample",
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesData.js"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"App",
+			"counter",
+			"INCREMENT_COUNTER",
+			"props.counter",
+			"counter",
+			"count",
+			"counter",
+			"()",
+			";",
+			"counter",
+			"...",
+			"getState",
+			"count)",
+			"count",
+			";",
+			"_GMPCT",
+			"LOAD_TREND_SUCCESS",
+			"LOAD_TREND_REQUEST",
+			";",
+			"log",
+			"keys",
+			"parentKeys",
+			"keys",
+			"xkeys",
+			"log",
+			"parent",
+			"log",
+			"_.",
+			"this.state",
+			"Events",
+			"pulses",
+			"export",
+			"PulseApp",
+			"pulses",
+			"nextGrouping;",
+			"Item",
+			"ITEM",
+			"EVENTS",
+			"Events",
+			"loadEventsSuccess",
+			"Events",
+			"Event",
+			"items",
+			",",
+			",]",
+			"\"weeklySales\": [",
+			"\"weeklySales\":",
+			"goToParent",
+			"Parent",
+			"bar",
+			"\n\n",
+			"trk=contacts-contacts-list-contact_name-0",
+			"view?trk=contacts-contacts-list-contact_name-0&",
+			"div",
+			"n",
+			"state",
+			"filter",
+			"log",
+			"({metric})",
+			"cause",
+			"filter",
+			"div",
+			"status",
+			"state",
+			"Incident",
+			"value",
+			"messageValue",
+			"say",
+			"Say",
+			"say",
+			"onSay",
+			"say",
+			"div",
+			"3",
+			"assign",
+			"Assign",
+			"li",
+			"state",
+			"matchingKey",
+			"_",
+			"humidity",
+			"Cause",
+			"org",
+			"postg",
+			"lock",
+			"li",
+			"ul",
+			"li",
+			"ul",
+			"shift+d",
+			"Shift",
+			"div",
+			"project",
+			"venues",
+			"console",
+			"map",
+			"grav",
+			"venue",
+			",",
+			":",
+			"declaration",
+			"[]",
+			"A'",
+			"'{0}', now()",
+			", now()",
+			",now()",
+			"},",
+			"{\"",
+			"appliances",
+			"appliance",
+			"appliances",
+			"appliance",
+			"appliances",
+			"appliance",
+			"Appliance",
+			"appliances",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"Appliance",
+			"appliance",
+			"appliances"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Count/CountReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Count/CountActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Count/CountSaga.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Count/CountApp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "Packages/User/babel.sublime-build",
+	"project": "boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"act",
+				"src/constants/ActionTypes.js"
+			],
+			[
+				"countera",
+				"src/actions/CounterActions.js"
+			],
+			[
+				"app",
+				"src/containers/App.js"
+			],
+			[
+				"action",
+				"src/constants/ActionTypes.js"
+			],
+			[
+				"reduc",
+				"universal/reducers.js"
+			],
+			[
+				".ba",
+				".babelrc"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"",
+				"universal/Trend/TrendReducer.js"
+			],
+			[
+				"query",
+				"docs/queryTest.js"
+			],
+			[
+				"trendre",
+				"universal/Trend/TrendReducer.js"
+			],
+			[
+				"trendactions",
+				"universal/Trend/TrendActions.js"
+			],
+			[
+				"redu",
+				"universal/reducers.js"
+			],
+			[
+				"routes.j",
+				"universal/routes.js"
+			],
+			[
+				"paren",
+				"universal/Trend/components/Parent.js"
+			],
+			[
+				"parent",
+				"universal/Trend/components/Parent.js"
+			],
+			[
+				"lens",
+				"universal/Trend/components/Lens.js"
+			],
+			[
+				"pulse",
+				"universal/Pulse/PulseApp.js"
+			],
+			[
+				"nest",
+				"universal/Trend/helpers/nest.js"
+			],
+			[
+				"trendser",
+				"server/api/service/trendService.js"
+			],
+			[
+				"trenda",
+				"universal/Trend/TrendApp.js"
+			],
+			[
+				"config",
+				"node_modules/config/lib/config.js"
+			],
+			[
+				"up",
+				"kiwi/models/migrations/up-0.sql"
+			],
+			[
+				"de",
+				"kiwi/models/devicesExtensions.js"
+			],
+			[
+				"applex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"applia",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"inc",
+				"kiwi/app/dashboard/incidents/incidents.jsx"
+			],
+			[
+				"incsql",
+				"kiwi/services/incidents/incidents.sql"
+			],
+			[
+				"incser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"incidentsex",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"appl",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"sku",
+				"kiwi/models/sku.js"
+			],
+			[
+				"meas",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"appliancesc",
+				"kiwi/app/dashboard/appliances/appliancesController.js"
+			],
+			[
+				"ele",
+				"sedna-data/src/elementals.js"
+			],
+			[
+				"device",
+				"kiwi/models/devicesExtensions.js"
+			],
+			[
+				"metri",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"incidents",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"incid",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"applijsx",
+				"kiwi/app/dashboard/appliances/appliances.jsx"
+			],
+			[
+				"appli",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"measur",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"devi",
+				"kiwi/models/devices.js"
+			],
+			[
+				"incident",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"inciser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"appliex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"appliancesjsx",
+				"kiwi/app/dashboard/appliances/appliances.jsx"
+			],
+			[
+				"devic",
+				"kiwi/models/devices.js"
+			],
+			[
+				"ser",
+				"sedna-server/src/server.js"
+			],
+			[
+				"createun",
+				"sedna-data/src/createUnion.js"
+			],
+			[
+				"incidentsexte",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"metric",
+				"kiwi/models/metric.js"
+			],
+			[
+				"metr",
+				"kiwi/models/metric.js"
+			],
+			[
+				"incex",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"org",
+				"kiwi/services/orgs/orgs.sql"
+			],
+			[
+				"dev",
+				"kiwi/models/devices.js"
+			],
+			[
+				"devicesser",
+				"kiwi/services/devices/devicesService.js"
+			],
+			[
+				"inicide",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"applic",
+				"kiwi/app/dashboard/appliances/appliancesController.js"
+			],
+			[
+				"inccont",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"appliser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"applser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"inci",
+				"kiwi/app/dashboard/incidents/incident.jsx"
+			],
+			[
+				"measure",
+				"kiwi/services/devices/measurementsService.js"
+			],
+			[
+				"serv",
+				"sedna-server/src/server.js"
+			],
+			[
+				"models/inc",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"json",
+				"kiwi/package.json"
+			],
+			[
+				"incjs",
+				"kiwi/models/incidents.js"
+			],
+			[
+				"venues",
+				"kiwi/services/venues/venuesService.js"
+			],
+			[
+				"applisql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"incidentser",
+				"kiwi/services/incidents/incidentsService.js"
+			],
+			[
+				"orgs",
+				"kiwi/services/orgs/orgs.sql"
+			],
+			[
+				"venue",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"incjsx",
+				"kiwi/app/dashboard/incidents/incident.jsx"
+			],
+			[
+				"boot",
+				"kiwi/app/theme/bootstrap.js"
+			],
+			[
+				"exte",
+				"kiwi/models/incidentsExtensions.js"
+			],
+			[
+				"appli.js",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"appser",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"server",
+				"sedna-server/src/server.js"
+			],
+			[
+				"applince",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"ven",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"appsql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"venu",
+				"kiwi/models/venue.js"
+			],
+			[
+				"applia.",
+				"kiwi/models/appliances.js"
+			],
+			[
+				"appliances",
+				"kiwi/services/appliances/appliancesService.js"
+			],
+			[
+				"scann",
+				"kiwi/workers/scanner.js"
+			],
+			[
+				"ex",
+				"kiwi/models/appliancesExtensions.js"
+			],
+			[
+				"appjsx",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"users",
+				"kiwi/services/users/users.sql"
+			],
+			[
+				"venueq",
+				"kiwi/services/venues/venues.sql"
+			],
+			[
+				"meau",
+				"kiwi/services/metrics/measurementsService.js"
+			],
+			[
+				"appjs",
+				"kiwi/models/appliance.js"
+			],
+			[
+				"devsql",
+				"kiwi/services/devices/devices.sql"
+			],
+			[
+				"incide",
+				"kiwi/models/incidentMessage.js"
+			],
+			[
+				"appliance.js",
+				"kiwi/app/dashboard/appliances/appliance.jsx"
+			],
+			[
+				"incidentscon",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"incidentscontr",
+				"kiwi/app/dashboard/incidents/incidentsController.js"
+			],
+			[
+				"incident.js",
+				"kiwi/models/incident.js"
+			],
+			[
+				"incidentmess",
+				"kiwi/models/incidentMessage.js"
+			],
+			[
+				"model",
+				"sedna-data/src/model.js"
+			],
+			[
+				"jscs",
+				"kiwi/.jscsrc"
+			],
+			[
+				"read",
+				"kiwi/README.md"
+			],
+			[
+				".c",
+				"kiwi/app/.chartistExample"
+			],
+			[
+				"chart",
+				"kiwi/app/.chartistExample"
+			],
+			[
+				"applianceda",
+				"kiwi/app/dashboard/appliances/appliancesData.js"
+			],
+			[
+				"applliance.html",
+				"kiwi/app/dashboard/appliances/appliance.html"
+			],
+			[
+				".sql",
+				"kiwi/services/appliances/appliances.sql"
+			],
+			[
+				"contain",
+				"sedna-container/src/container.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/sptio/projects/stdTrend/trend.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "gettr",
+		"selected_items":
+		[
+			[
+				"gettr",
+				"getTrend"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"orderby",
+				"orderBy"
+			],
+			[
+				"pulses",
+				"pulses"
+			],
+			[
+				"extend",
+				"extendTypes"
+			],
+			[
+				"exte",
+				"extendTypes"
+			],
+			[
+				"model",
+				"modelDidInflate"
+			],
+			[
+				"any",
+				"any"
+			]
+		],
+		"width": 665.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
