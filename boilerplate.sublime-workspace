@@ -4,18 +4,44 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"DECR",
 				"DECCREMENT_COUNTER_COMPLETE"
 			],
 			[
 				"DE",
 				"DECREMENT_COUNTER_COMPLETE"
+=======
+				"Cou",
+				"CountSaga"
+			],
+			[
+				"INC",
+				"INCREMENT_COUNTER_COMPLETE"
+			],
+			[
+				"Coun",
+				"CountSaga"
+			],
+			[
+				"count",
+				"CountActions"
+			],
+			[
+				"C",
+				"CountActions"
+			],
+			[
+				"IN",
+				"INCREMENT_COUNTER_COMPLETE"
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			],
 			[
 				"get",
 				"getState"
 			],
 			[
+<<<<<<< HEAD
 				"Coun",
 				"CountSaga"
 			],
@@ -34,6 +60,58 @@
 			[
 				"in",
 				"INCREMENT_COUNTER_COMPLETE"
+=======
+				"root",
+				"rootSaga"
+			],
+			[
+				"gro",
+				"grossMarginPercent"
+			],
+			[
+				"lens",
+				"lensGroup"
+			],
+			[
+				"Tren",
+				"TrendActions"
+			],
+			[
+				"ini",
+				"initialTrend"
+			],
+			[
+				"Trend",
+				"TrendApp"
+			],
+			[
+				"event",
+				"events"
+			],
+			[
+				"Pul",
+				"PulseApp"
+			],
+			[
+				"ba",
+				"baseUser"
+			],
+			[
+				"Tre",
+				"TrendApp"
+			],
+			[
+				"wee",
+				"weekEndDate"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"go",
+				"goToParent"
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			],
 			[
 				"owe",
@@ -180,26 +258,47 @@
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "src/sagas/index.js",
 			"settings":
 			{
 				"buffer_size": 1229,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/commonComponents/Footer.js",
-			"settings":
-			{
-				"buffer_size": 288,
-				"line_ending": "Unix"
-			}
-		},
-		{
+=======
 			"file": "src/Count/CountActions.js",
 			"settings":
 			{
 				"buffer_size": 633,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD
+			"file": "src/commonComponents/Footer.js",
+			"settings":
+			{
+				"buffer_size": 288,
+=======
+			"file": "src/Count/CountSaga.js",
+			"settings":
+			{
+				"buffer_size": 861,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
+				"line_ending": "Unix"
+			}
+		},
+		{
+<<<<<<< HEAD
+			"file": "src/Count/CountActions.js",
+			"settings":
+			{
+				"buffer_size": 633,
+=======
+			"file": "src/Count/CountApp.js",
+			"settings":
+			{
+				"buffer_size": 2388,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"line_ending": "Unix"
 			}
 		}
@@ -212,6 +311,7 @@
 	"command_palette":
 	{
 		"height": 159.0,
+<<<<<<< HEAD
 		"last_filter": "wrap",
 		"selected_items":
 		[
@@ -222,12 +322,55 @@
 			[
 				"blame",
 				"Git: Blame"
+=======
+		"last_filter": "javas",
+		"selected_items":
+		[
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			],
 			[
 				"json",
 				"Pretty JSON: Format (Pretty Print) JSON"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"j",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"min",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"dup",
 				"File: Duplicate"
 			],
@@ -260,10 +403,13 @@
 				"File: Rename"
 			],
 			[
+<<<<<<< HEAD
 				"install",
 				"Package Control: Install Package"
 			],
 			[
+=======
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"java",
 				"Set Syntax: JavaScript (Babel)"
 			],
@@ -274,6 +420,7 @@
 			[
 				"instal",
 				"Package Control: Install Package"
+<<<<<<< HEAD
 			],
 			[
 				"pack",
@@ -281,6 +428,11 @@
 			]
 		],
 		"width": 467.0
+=======
+			]
+		],
+		"width": 449.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"console":
 	{
@@ -301,6 +453,7 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/raygun/labs/simple-redux-boilerplate",
 		"/raygun/labs/simple-redux-boilerplate/src",
 		"/raygun/labs/simple-redux-boilerplate/src/Count",
@@ -327,6 +480,85 @@
 		"/raygun/labs/simple-redux-boilerplate/src/containers/App.js",
 		"/raygun/labs/simple-redux-boilerplate/src/reducers/counter.js",
 		"/raygun/labs/simple-redux-boilerplate/src/constants/ActionTypes.js",
+=======
+		"/raygun/simple-redux-boilerplate",
+		"/raygun/simple-redux-boilerplate/src",
+		"/raygun/simple-redux-boilerplate/src/Count",
+		"/raygun/simple-redux-boilerplate/src/Shuffle",
+		"/raygun/simple-redux-boilerplate/src/components",
+		"/raygun/simple-redux-boilerplate/src/constants",
+		"/raygun/simple-redux-boilerplate/src/store"
+	],
+	"file_history":
+	[
+		"/raygun/simple-redux-boilerplate/src/sagas/index.js",
+		"/raygun/simple-redux-boilerplate/src/store/configureStore.dev.js",
+		"/raygun/simple-redux-boilerplate/src/reducers/index.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountSaga.js",
+		"/raygun/simple-redux-boilerplate/src/containers/Root.dev.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountApp.js",
+		"/raygun/simple-redux-boilerplate/src/containers/App.xjs",
+		"/raygun/simple-redux-boilerplate/src/Count/CountReducer.js",
+		"/raygun/simple-redux-boilerplate/src/actions/index.js",
+		"/raygun/simple-redux-boilerplate/src/constants/ActionTypes.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CountActions.js",
+		"/raygun/simple-redux-boilerplate/src/Count/components/Counter.js",
+		"/raygun/simple-redux-boilerplate/src/Count/CounterApp.js",
+		"/raygun/simple-redux-boilerplate/src/components/Counter.js",
+		"/raygun/simple-redux-boilerplate/src/actions/CounterActions.js",
+		"/raygun/simple-redux-boilerplate/src/containers/App.js",
+		"/raygun/simple-redux-boilerplate/src/reducers/counter.js",
+		"/raygun/simple-redux-boilerplate/index.html",
+		"/raygun/simple-redux-boilerplate/src/store/configureStore.prod.js",
+		"/raygun/simple-redux-boilerplate/src/components/Footer.js",
+		"/raygun/simple-redux-boilerplate/webpack.config.prod.js",
+		"/raygun/simple-redux-boilerplate/webpack.config.dev.js",
+		"/raygun/simple-redux-boilerplate/.babelrc",
+		"/sptio/project/ioInv/docs/queryTest.js",
+		"/sptio/project/ioInv/universal/Trend/TrendReducer.js",
+		"/raygun/simple-redux-boilerplate/devServer.js",
+		"/sptio/project/package.json",
+		"/home/will/.config/sublime-text-3/Packages/User/babel.sublime-build",
+		"/sptio/project/ioInv/.babelrc",
+		"/sptio/project/ioInv/package.json",
+		"/sptio/project/ioInv/client/app.js",
+		"/sptio/project/ioInv/universal/Trend/TrendActions.js",
+		"/sptio/project/ioInv/server/api/http.js",
+		"/sptio/project/ioInv/server/api/service/trendService.js",
+		"/sptio/project/ioInv/universal/Pulse/pulse.js",
+		"/sptio/project/ioInv/universal/Trend/components/Parent.js",
+		"/sptio/project/ioInv/universal/reducers.js",
+		"/sptio/project/ioInv/universal/routes.js",
+		"/sptio/project/ioInv/universal/Trend/TrendApp.js",
+		"/sptio/project/ioInv/universal/Trend/components/Lens.js",
+		"/sptio/projects/ioInv/package.json",
+		"/sptio/projects/ioInv/webpack.config.js",
+		"/sptio/projects/ioInv/client/app.js",
+		"/sptio/projects/ioInv/server/app.js",
+		"/sptio/projects/ioInv/server/views/index.ejs",
+		"/sptio/projects/ioInv/universal/Trend/helpers/nest.js",
+		"/sptio/projects/ioInv/server.webpack.js",
+		"/sptio/projects/ioInv/universal/Pulse/PulseApp.js",
+		"/sptio/projects/ioInv/universal/routes.js",
+		"/sptio/projects/ioInv/server.js",
+		"/sptio/projects/ioInv/server/api/http.js",
+		"/sptio/projects/ioInv/server/api/service/service.js",
+		"/sptio/labs/ioTrend/itemData.json",
+		"/sptio/labs/3ree/universal/reducers/index.js",
+		"/sptio/labs/ioTrend/index.html",
+		"/sptio/labs/ioTrend/itemData.js",
+		"/sptio/projects/ioInv/universal/Trend/TrendReducer.js",
+		"/sptio/projects/ioInv/server/api/service/trendService.js",
+		"/sptio/projects/ioInv/universal/Trend/TrendActions.js",
+		"/sptio/projects/ioInv/universal/Pulse/pulse.js",
+		"/sptio/projects/ioInv/universal/Trend/components/Parent.js",
+		"/sptio/projects/ioInv/weeklySales.json",
+		"/sptio/projects/ioInv/inventory.json",
+		"/sptio/projects/ioInv/item.json",
+		"/sptio/projects/ioInv/dbSetup.js",
+		"/sptio/projects/ioInv/config/default.json",
+		"/sptio/projects/ioInv/node_modules/config/lib/config.js",
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 		"/home/will/.i3/i3status.conf",
 		"/home/will/.i3/config",
 		"/var/log/syslog",
@@ -387,6 +619,7 @@
 		"/sptio/projects/kiwi/services/orgs/orgsService.js",
 		"/sptio/projects/kiwi/app/dashboard/appliances/chartData.js",
 		"/sptio/projects/kiwi/app/.chartistExample",
+<<<<<<< HEAD
 		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesData.js",
 		"/sptio/projects/kiwi/app/dashboard/appliances/appliance.html",
 		"/sptio/projects/sedna-container/src/container.js",
@@ -397,6 +630,13 @@
 	"find":
 	{
 		"height": 52.0
+=======
+		"/sptio/projects/kiwi/app/dashboard/appliances/appliancesData.js"
+	],
+	"find":
+	{
+		"height": 46.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"find_in_files":
 	{
@@ -407,6 +647,7 @@
 	},
 	"find_state":
 	{
+<<<<<<< HEAD
 		"case_sensitive": false,
 		"find_history":
 		[
@@ -416,6 +657,60 @@
 			"this.props.counter",
 			"INCREMENT_COUNTER",
 			";",
+=======
+		"case_sensitive": true,
+		"find_history":
+		[
+			"App",
+			"counter",
+			"INCREMENT_COUNTER",
+			"props.counter",
+			"counter",
+			"count",
+			"counter",
+			"()",
+			";",
+			"counter",
+			"...",
+			"getState",
+			"count)",
+			"count",
+			";",
+			"_GMPCT",
+			"LOAD_TREND_SUCCESS",
+			"LOAD_TREND_REQUEST",
+			";",
+			"log",
+			"keys",
+			"parentKeys",
+			"keys",
+			"xkeys",
+			"log",
+			"parent",
+			"log",
+			"_.",
+			"this.state",
+			"Events",
+			"pulses",
+			"export",
+			"PulseApp",
+			"pulses",
+			"nextGrouping;",
+			"Item",
+			"ITEM",
+			"EVENTS",
+			"Events",
+			"loadEventsSuccess",
+			"Events",
+			"Event",
+			"items",
+			",",
+			",]",
+			"\"weeklySales\": [",
+			"\"weeklySales\":",
+			"goToParent",
+			"Parent",
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			"bar",
 			"\n\n",
 			"trk=contacts-contacts-list-contact_name-0",
@@ -494,6 +789,7 @@
 			"appliance",
 			"Appliance",
 			"appliance",
+<<<<<<< HEAD
 			"appliances",
 			"Appliance",
 			"appliance",
@@ -516,6 +812,9 @@
 			"bar",
 			"volume",
 			"bar"
+=======
+			"appliances"
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -533,7 +832,11 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 2,
+=======
+			"selected": 3,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			"sheets":
 			[
 				{
@@ -549,15 +852,28 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								442,
 								442
+=======
+								75,
+								75
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 66.0,
+=======
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -566,23 +882,37 @@
 				},
 				{
 					"buffer": 1,
+<<<<<<< HEAD
 					"file": "src/sagas/index.js",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1229,
+=======
+					"file": "src/Count/CountActions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								670,
 								670
+=======
+								518,
+								518
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -590,51 +920,96 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+=======
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+<<<<<<< HEAD
 					"file": "src/commonComponents/Footer.js",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 288,
+=======
+					"file": "src/Count/CountSaga.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 861,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								218,
 								218
+=======
+								278,
+								278
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
 						},
+<<<<<<< HEAD
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+=======
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+<<<<<<< HEAD
 					"file": "src/Count/CountActions.js",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 633,
+=======
+					"file": "src/Count/CountApp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2388,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								616,
 								616
+=======
+								782,
+								782
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 							]
 						],
 						"settings":
@@ -644,10 +1019,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+=======
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 					"type": "text"
 				}
 			]
@@ -655,7 +1037,11 @@
 	],
 	"incremental_find":
 	{
+<<<<<<< HEAD
 		"height": 44.0
+=======
+		"height": 38.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"input":
 	{
@@ -686,7 +1072,11 @@
 	"menu_visible": true,
 	"output.exec":
 	{
+<<<<<<< HEAD
 		"height": 208.0
+=======
+		"height": 196.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"output.find_results":
 	{
@@ -696,11 +1086,19 @@
 	{
 		"height": 172.0
 	},
+<<<<<<< HEAD
 	"pinned_build_system": "",
 	"project": "boilerplate.sublime-project",
 	"replace":
 	{
 		"height": 84.0
+=======
+	"pinned_build_system": "Packages/User/babel.sublime-build",
+	"project": "boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -710,18 +1108,102 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"counter",
 				"src/components/Counter.js"
 			],
 			[
 				"countapp",
 				"src/Count/CountApp.js"
+=======
+				"act",
+				"src/constants/ActionTypes.js"
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 			],
 			[
 				"countera",
 				"src/actions/CounterActions.js"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"app",
+				"src/containers/App.js"
+			],
+			[
+				"action",
+				"src/constants/ActionTypes.js"
+			],
+			[
+				"reduc",
+				"universal/reducers.js"
+			],
+			[
+				".ba",
+				".babelrc"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"",
+				"universal/Trend/TrendReducer.js"
+			],
+			[
+				"query",
+				"docs/queryTest.js"
+			],
+			[
+				"trendre",
+				"universal/Trend/TrendReducer.js"
+			],
+			[
+				"trendactions",
+				"universal/Trend/TrendActions.js"
+			],
+			[
+				"redu",
+				"universal/reducers.js"
+			],
+			[
+				"routes.j",
+				"universal/routes.js"
+			],
+			[
+				"paren",
+				"universal/Trend/components/Parent.js"
+			],
+			[
+				"parent",
+				"universal/Trend/components/Parent.js"
+			],
+			[
+				"lens",
+				"universal/Trend/components/Lens.js"
+			],
+			[
+				"pulse",
+				"universal/Pulse/PulseApp.js"
+			],
+			[
+				"nest",
+				"universal/Trend/helpers/nest.js"
+			],
+			[
+				"trendser",
+				"server/api/service/trendService.js"
+			],
+			[
+				"trenda",
+				"universal/Trend/TrendApp.js"
+			],
+			[
+				"config",
+				"node_modules/config/lib/config.js"
+			],
+			[
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"up",
 				"kiwi/models/migrations/up-0.sql"
 			],
@@ -822,10 +1304,13 @@
 				"kiwi/app/dashboard/appliances/appliances.jsx"
 			],
 			[
+<<<<<<< HEAD
 				"app",
 				"kiwi/app/dashboard/appliances/appliance.jsx"
 			],
 			[
+=======
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"devic",
 				"kiwi/models/devices.js"
 			],
@@ -1087,11 +1572,35 @@
 	},
 	"select_symbol":
 	{
+<<<<<<< HEAD
 		"height": 285.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
+=======
+		"height": 392.0,
+		"last_filter": "gettr",
+		"selected_items":
+		[
+			[
+				"gettr",
+				"getTrend"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"orderby",
+				"orderBy"
+			],
+			[
+				"pulses",
+				"pulses"
+			],
+			[
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 				"extend",
 				"extendTypes"
 			],
@@ -1108,7 +1617,11 @@
 				"any"
 			]
 		],
+<<<<<<< HEAD
 		"width": 392.0
+=======
+		"width": 665.0
+>>>>>>> d6fe649d00949bd65b3d2761a9d5c7586d09007d
 	},
 	"selected_group": 0,
 	"settings":
