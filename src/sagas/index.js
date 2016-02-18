@@ -1,6 +1,7 @@
 import CountSaga from '../Count/CountSaga'
+import ShuffleSaga from '../Shuffle/ShuffleSaga'
 
-const rootSaga = [ CountSaga ]
+const rootSaga = [ CountSaga, ShuffleSaga ]
 
 export default rootSaga
 

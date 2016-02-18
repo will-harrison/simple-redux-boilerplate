@@ -1,10 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as ShuffleActions from './ShuffleActions'
+import * as actions from './ShuffleActions'
 // import Counter from './components/Counter';
 import Footer from '../commonComponents/Footer'
-
 /**
  * It is common practice to have a 'Root' container/component require our main App (this one).
  * Again, this is because it serves to wrap the rest of our application with the Provider
@@ -13,11 +12,10 @@ import Footer from '../commonComponents/Footer'
 
 export default class ShuffleApp extends Component {
   render() {
-    const { skus, actions } = this.props
+    const { skus, count, actions } = this.props
     return (
       <div>
-        <button>SHUFFLE</button>
-        <Footer />
+        <button onClick={() => actions.shuffleRequest(100)}>SHUFFLE</button>
       </div>
     )
   }
@@ -49,7 +47,7 @@ function mapStateToProps(state) {
  */
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(ShuffleActions, dispatch)
+    actions: bindActionCreators(actions, dispatch)
   };
 }
 

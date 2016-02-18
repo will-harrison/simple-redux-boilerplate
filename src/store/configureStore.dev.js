@@ -12,7 +12,10 @@ import DevTools from '../containers/DevTools';
  * conjunction with your standard DevTools monitor gives you great
  * flexibility!
  */
-const logger = createLogger();
+const logger = createLogger({
+  // predicate: (getState, action) => action.type !== EFFECT_TRIGGERED
+  collapsed: true
+});
 
 // const finalCreateStore = compose(applyMiddleware(
 //   // sagaMiddleware(...sagas),

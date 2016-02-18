@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import CountReducer from '../Count/CountReducer';
+import ShuffleReducer from '../Shuffle/ShuffleReducer'
 
 /**
  * combineReducers is important to understand. As your app might grow in size
@@ -15,7 +16,8 @@ import CountReducer from '../Count/CountReducer';
  * More info: http://rackt.org/redux/docs/api/combineReducers.html
  */
 const rootReducer = combineReducers({
-  CountReducer, // you might be used to: counter: counter,
+  CountReducer,
+  ShuffleReducer
 });
 
 export default rootReducer;

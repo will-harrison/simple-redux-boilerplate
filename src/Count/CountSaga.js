@@ -2,6 +2,7 @@ import { take, put, call, fork } from 'redux-saga'
 import * as actions from './CountActions'
 
 
+
 export function* reporter(val) {
   console.log("SAGA IS ", val);
 }
@@ -18,7 +19,7 @@ export function* watchIncrement(getState) {
 export function* watchDecrement(getState) {
   while(true) {
     yield take(actions.DECREMENT_COUNTER)
-    const countDecremented = getState().CountReducer.count - 1
+    const countDecremented = getState().CountReoducer.count - 1
     yield put({ type: actions.DECREMENT_COUNTER_COMPLETE, count: countDecremented })
   }
 }

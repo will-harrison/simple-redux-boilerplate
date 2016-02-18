@@ -1,27 +1,47 @@
-const path = require('path');
-const express = require('express');
-const webpack = require('webpack');
-const config = require('./webpack.config.dev');
+const path = require('path')
+const express = require('express')
+const webpack = require('webpack')
+const config = require('./webpack.config.dev')
+const rdb = require('rethinkdbdash')({ servers: [{ host: '107.170.201.130', port: '28015', db: 'metacog' }]})
+const socketio = require('socket.io')
 
-const app = express();
-const compiler = webpack(config);
+
+const app = express()
+const compiler = webpack(config)
+
+const queries = require('./src/queries')
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
-}));
+}))
 
-app.use(require('webpack-hot-middleware')(compiler));
+app.use(require('webpack-hot-middleware')(compiler))
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
+  res.sendFile(path.join(__dirname, 'index.html'))
+})
 
-app.listen(5001, 'localhost', (err) => {
-  if (err) {
-    console.log(err);
-    return;
-  }
+const io = socketio.listen(
+  app.listen(5001, 'localhost', (err) => {
+    if (err) {
+      console.log(err)
+      return
+    }
 
-  console.log('Listening at http://localhost:5001');
-});
+    console.log('Listening at http://localhost:5001')
+  })
+)
+
+io.sockets.on('connection', (socket) => {
+  console.log("socket ", socket.id, "connected")
+
+  socket.on('query', (query, count) => {
+    console.log("socket", socket.id, query, count, "called 'query'")
+    // queries.shuffleSkus(count)
+  })
+
+  socket.on('disconnect', () => {
+    console.log("socket", socket.id, "has disconnected")
+  })
+})
