@@ -2,14 +2,14 @@ const path = require('path')
 const express = require('express')
 const webpack = require('webpack')
 const config = require('./webpack.config.dev')
-const rdb = require('rethinkdbdash')({ servers: [{ host: '107.170.201.130', port: '28015', db: 'metacog' }]})
+// const rdb = require('rethinkdbdash')({ servers: [{ host: '107.170.201.130', port: '28015', db: 'metacog' }]})
 const socketio = require('socket.io')
 
 
 const app = express()
 const compiler = webpack(config)
 
-const queries = require('./src/queries')
+const query = require('./src/queries')
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -38,7 +38,10 @@ io.sockets.on('connection', (socket) => {
 
   socket.on('query', (query, count) => {
     console.log("socket", socket.id, query, count, "called 'query'")
-    // queries.shuffleSkus(count)
+    query(socket, count)
+    // call a specific function (query), passing any args (count
+    // no need for call back? can make it unidirectional?
+
   })
 
   socket.on('disconnect', () => {
