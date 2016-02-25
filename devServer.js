@@ -34,12 +34,13 @@ const io = socketio.listen(
 )
 
 io.sockets.on('connection', (socket) => {
+  io.emit('hi')
   console.log("socket ", socket.id, "connected")
 
-  socket.on('query', (io, query, count) => {
-    console.log("socket", socket.id, query, count, "called 'query'")
-    queries[query(socket, count)]
-    // call a specific function (query), passing any args (count
+  socket.on('query', (query, args) => {
+    console.log("socket", socket.id, query, args, "called 'query'")
+    console.log(queries[query], args.count)
+    // call a specific function (query), passing any args (args
     // no need for call back? can make it unidirectional?
 
   })

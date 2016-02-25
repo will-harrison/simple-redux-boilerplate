@@ -13,7 +13,8 @@ import DevTools from '../containers/DevTools';
  * flexibility!
  */
 const logger = createLogger({
-  // predicate: (getState, action) => action.type !== EFFECT_TRIGGERED
+  // SAGAs are mouthy and spit out a lot of EFFECT_TRIGGERED and EFFECT_RESOLVED
+  predicate: (getState, action) => action.type.indexOf('EFFECT_') === -1,
   collapsed: true
 });
 
