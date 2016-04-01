@@ -31,7 +31,8 @@ const finalCreateStore = compose(
       logger,
     ),
   // Required! Enable Redux DevTools with the monitors you chose
-  DevTools.instrument()
+  // DevTools.instrument(),
+  window.devToolsExtension ? window.devToolsExtension([{actionsBlackList: ['EFFECT_TRIGGERED', 'EFFECT_RESOLVED']}]) : f => f
 )(createStore);
 
 module.exports = function configureStore(initialState) {

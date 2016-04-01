@@ -34,16 +34,47 @@ const io = socketio.listen(
 )
 
 io.sockets.on('connection', (socket) => {
-  io.emit('hi')
-  console.log("socket ", socket.id, "connected")
+  // io.emit('hi')
+  // io.emit('hi-again')
+
+  var deferred
+
+  socket.on('query-saga-test-results', (results) => {
+    console.log('query-saga-test-results called', results)
+    if ( deferred ) {
+      console.log('query-saga-test-results is deferred')
+      deferred.resolve(JSON.parse(results.data))
+      deferred = null
+    }
+    return {
+      nextMessage() {
+        if ( ! deferred ) {
+          console.log('query-saga-test-results is deferred')
+          deferred = {}
+          deferred.promise = new Promise( resolve => deferred.resolve = resolve )
+        }
+        return deferred.promise
+      }
+    }
+  })
+
+  socket.on('query-results', (results) => {
+    console.log("devServer.socket.on('query-results')", results)
+  })
+
 
   socket.on('query', (query, args) => {
-    console.log("socket", socket.id, query, args, "called 'query'")
-    console.log(queries[query], args.count)
+    console.log("devServer.socket.on('query')")
+    queries[query](io, args)
+    // io.emit('query-results', queries[query](socket, args), 'blah')
+    // io.emit('query-results', results , 'blah' )
     // call a specific function (query), passing any args (args
     // no need for call back? can make it unidirectional?
 
   })
+
+
+  console.log("socket ", socket.id, "connected")
 
   socket.on('disconnect', () => {
     console.log("socket", socket.id, "has disconnected")
