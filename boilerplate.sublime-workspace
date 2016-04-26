@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"SH",
+				"SHUFFLE_SKUS"
+			],
+			[
+				"EF",
+				"EFFECT_RESOLVED"
+			],
+			[
 				"query",
 				"query-results"
 			],
@@ -200,10 +208,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/Shuffle/ShuffleQueries.js",
+			"file": "src/Shuffle/ShuffleSaga.js",
 			"settings":
 			{
-				"buffer_size": 495,
+				"buffer_size": 792,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,7 +219,15 @@
 			"file": "src/queries/index.js",
 			"settings":
 			{
-				"buffer_size": 455,
+				"buffer_size": 513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/store/configureStore.dev.js",
+			"settings":
+			{
+				"buffer_size": 1602,
 				"line_ending": "Unix"
 			}
 		}
@@ -319,13 +335,7 @@
 	[
 		"/raygun/labs/simple-redux-boilerplate",
 		"/raygun/labs/simple-redux-boilerplate/src",
-		"/raygun/labs/simple-redux-boilerplate/src/Count",
-		"/raygun/labs/simple-redux-boilerplate/src/Shuffle",
-		"/raygun/labs/simple-redux-boilerplate/src/containers",
-		"/raygun/labs/simple-redux-boilerplate/src/queries",
-		"/raygun/labs/simple-redux-boilerplate/src/reducers",
-		"/raygun/labs/simple-redux-boilerplate/src/sagas",
-		"/raygun/labs/simple-redux-boilerplate/src/store"
+		"/raygun/labs/simple-redux-boilerplate/src/Shuffle"
 	],
 	"file_history":
 	[
@@ -586,52 +596,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/Shuffle/ShuffleQueries.js",
+					"file": "src/Shuffle/ShuffleSaga.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 495,
+						"buffer_size": 792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								493,
-								493
+								603,
+								603
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 96.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "src/queries/index.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 455,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								143,
+								143
 							]
 						],
 						"settings":
@@ -644,7 +656,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/store/configureStore.dev.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
