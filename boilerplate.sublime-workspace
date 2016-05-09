@@ -207,30 +207,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/Shuffle/ShuffleSaga.js",
-			"settings":
-			{
-				"buffer_size": 792,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/queries/index.js",
-			"settings":
-			{
-				"buffer_size": 513,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/store/configureStore.dev.js",
-			"settings":
-			{
-				"buffer_size": 1602,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -239,10 +215,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 201.0,
-		"last_filter": "wrap",
+		"height": 96.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"wrap",
 				"Word Wrap: Toggle"
@@ -292,10 +272,6 @@
 				"File: Rename"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"java",
 				"Set Syntax: JavaScript (Babel)"
 			],
@@ -312,7 +288,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -335,14 +311,21 @@
 	[
 		"/raygun/labs/simple-redux-boilerplate",
 		"/raygun/labs/simple-redux-boilerplate/src",
-		"/raygun/labs/simple-redux-boilerplate/src/Shuffle"
+		"/raygun/labs/simple-redux-boilerplate/src/Shuffle",
+		"/raygun/labs/simple-redux-boilerplate/src/api",
+		"/raygun/labs/simple-redux-boilerplate/src/sagas",
+		"/raygun/labs/simple-redux-boilerplate/src/store"
 	],
 	"file_history":
 	[
-		"/raygun/labs/simple-redux-boilerplate/src/queries/index.js",
-		"/raygun/labs/simple-redux-boilerplate/devServer.js",
 		"/raygun/labs/simple-redux-boilerplate/src/store/configureStore.dev.js",
+		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleActions.js",
 		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleSaga.js",
+		"/raygun/labs/simple-redux-boilerplate/src/queries/index.js",
+		"/raygun/labs/simple-redux-boilerplate/src/api/index.js",
+		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleAPI.js",
+		"/raygun/labs/virtuous-saga/server.js",
+		"/raygun/labs/simple-redux-boilerplate/devServer.js",
 		"/raygun/labs/simple-redux-boilerplate/.babelrc",
 		"/raygun/labs/simple-redux-boilerplate/src/index.js",
 		"/raygun/labs/simple-redux-boilerplate/src/Count/CountSaga.js",
@@ -362,7 +345,6 @@
 		"/raygun/labs/simple-redux-boilerplate/src/containers/Root.js",
 		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleQueries.js",
 		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleReducer.js",
-		"/raygun/labs/simple-redux-boilerplate/src/Shuffle/ShuffleActions.js",
 		"/raygun/labs/simple-redux-boilerplate/index.html",
 		"/raygun/labs/simple-redux-boilerplate/webpack.config.dev.js",
 		"/raygun/labs/simple-redux-boilerplate/src/sagas/index.js",
@@ -596,99 +578,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/Shuffle/ShuffleSaga.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 792,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								603,
-								603
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 96.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/queries/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/store/configureStore.dev.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1119,
-								1119
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

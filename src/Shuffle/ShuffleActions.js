@@ -1,6 +1,4 @@
-export const SHUFFLE_REQUEST = 'SHUFFLE_REQUEST'
-export const SHUFFLE_COMPLETE = 'SHUFFLE_COMPLETE'
-
+import { SHUFFLE_REQUEST, SHUFFLE_COMPLETE } from './ShuffleActions'
 
 export function shuffleRequest( count=100 ) {
   return {

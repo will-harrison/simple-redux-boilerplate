@@ -12,14 +12,7 @@ export function* reporter(val) {
 export function* watchShuffleRequest(getState) {
   while (true) {
     yield take(actions.SHUFFLE_REQUEST)
-
-
-// socket.emit('query', 'shuffleSkus', { count } )
-
-    const skus = yield call( queries.shuffleSkus, getState().ShuffleReducer.count )
-    // yield call( socket.emit('query-saga-test-results'), skus )
-
-    yield put({ type: actions.SHUFFLE_COMPLETE, skus })
+    yield call( queries.shuffleSkus, getState().ShuffleReducer.count )
   }
 }
 
