@@ -1,6 +1,6 @@
 import { take, put, call, fork } from 'redux-saga'
 import * as actions from './ShuffleActions'
-import * as queries from './ShuffleQueries'
+import { SHUFFLE_REQUEST, SHUFFLE_COMPLETE } from './ShuffleAPI'
 
 import IO from 'socket.io-client'
 export const socket = IO()

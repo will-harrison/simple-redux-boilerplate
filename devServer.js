@@ -9,7 +9,7 @@ const app = express()
 const compiler = webpack(config)
 
 //
-const queries = require('./src/queries')
+const api = require('./src/api')
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -65,8 +65,8 @@ io.sockets.on('connection', (socket) => {
 
   socket.on('query', (query, args) => {
     console.log("devServer.socket.on('query')")
-    queries[query](io, args)
-    // io.emit('query-results', queries[query](socket, args), 'blah')
+    api[query](io, args)
+    // io.emit('query-results', api[query](socket, args), 'blah')
     // io.emit('query-results', results , 'blah' )
     // call a specific function (query), passing any args (args
     // no need for call back? can make it unidirectional?
