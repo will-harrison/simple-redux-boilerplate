@@ -1,9 +1,11 @@
 // const io = require('socket.io')
-const r = require('rethinkdbdash')({ servers: [{ host: '107.170.201.130', port: '28015', db: 'metacog' }]})
+const r = require('rethinkdb')
+
+r.connect({ host: '107.170.201.130', port: '28015', db: 'metacog' })
 
 import { listenerActions, emitterActions } from '../Shuffle/ShuffleAPI'
 // import { listenerActions, emitterActions } from './Shuffle/ShuffleAPI'
-export default { listenerActions }
+export { listenerActions }
 // export const emitterActions
 
 // module.exports = {
