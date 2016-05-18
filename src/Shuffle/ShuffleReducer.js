@@ -1,4 +1,5 @@
 import * as actions from './ShuffleActions'
+import * as blah from './ShuffleAPI'
 
 const initialState = {
   skus: ['123'],

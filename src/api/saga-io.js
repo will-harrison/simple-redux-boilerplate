@@ -1,8 +1,6 @@
 import io from 'socket.io-client'
 
-import { SHUFFLE_REQUEST, SHUFFLE_COMPLETE, SHUFFLE_SKUS } as blah from './src/Shuffle/ShuffleAPI'
-
-
+import { listnerActions } from './index'
 
 let socket = null
 
@@ -14,11 +12,15 @@ export const init = store => {
     store.dispatch({ type: LEAVE_SESSION })
   })
 
-  const actions = [ SHUFFLE_REQUEST, SHUFFLE_SKUS ]
+  const actions = [ listnerActions ]
 
   actions.forEach(action => {
     socket.on(action, payload => {
-      store.dispatch({ type: action, payload })
+      store.dispatch(
+        { type: action,
+          payload
+        }
+      )
     })
   })
 }
@@ -26,15 +28,17 @@ export const init = store => {
 export const socketIOMiddleware = store => next => action => {
   const result = next(action)
 
-  const actions =[ SHUFFLE_COMPLETE ]
+  const actions =[ emitterActions ]
 
   if (actions.indexOf(action.type) > -1) {
     const state = store.getState()
     const sessionId = state.session.id
-    socket.emit(action.type, {
-      sessionId,
-      payload: action.payload
-    })
+    socket.emit(
+      action.type,
+      { sessionId,
+        payload: action.payload
+      }
+    )
   }
   return result
 }

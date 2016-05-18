@@ -2,6 +2,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import rootReducer from '../reducers';
 import createLogger from 'redux-logger'
 import sagaMiddleware from 'redux-saga'
+import socketIOMiddleware from '../api/saga-io'
 import rootSaga from '../sagas'
 // import thunk from 'redux-thunk';
 import DevTools from '../containers/DevTools';
@@ -27,6 +28,7 @@ const logger = createLogger({
 const finalCreateStore = compose(
   // Middleware you want to use in development:
     applyMiddleware(
+      // socketIOMiddleware,
       sagaMiddleware(...rootSaga),
       logger,
     ),
