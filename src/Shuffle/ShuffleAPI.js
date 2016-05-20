@@ -1,5 +1,5 @@
 import { take, put, call, fork } from 'redux-saga'
-import IO from 'socket.io-client'
+import io from 'socket.io-client'
 
 const SHUFFLE_REQUEST = 'SHUFFLE_REQUEST'
 const SHUFFLE_COMPLETE = 'SHUFFLE_COMPLETE'

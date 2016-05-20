@@ -35,8 +35,9 @@ const io = socketio.listen(
 )
 
 io.sockets.on('connection', (socket) => {
-  // io.emit('hi')
-  // io.emit('hi-again')
+  // fsa: Flux Standard Action, https://github.com/acdlite/flux-standard-action
+  var fsa = {type: 'SERVER_CONNECT', payload: {socket: socket.id}}
+  socket.emit('fsa', fsa)
 
   var deferred
 

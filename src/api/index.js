@@ -1,12 +1,13 @@
-// const io = require('socket.io')
 const r = require('rethinkdb')
+const io = require('socket.io-client')
 
-r.connect({ host: '107.170.201.130', port: '28015', db: 'metacog' })
+const socket = io('http://localhost:5001/')
+socket.on('fsa', function socketOn(fsa) {
+  console.log(fsa.type, fsa.payload)
+})
 
-import { listenerActions, emitterActions } from '../Shuffle/ShuffleAPI'
-// import { listenerActions, emitterActions } from './Shuffle/ShuffleAPI'
-export { listenerActions }
-// export const emitterActions
+
+// r.connect({ host: '107.170.201.130', port: '28015', db: 'metacog' })
 
 // module.exports = {
 //   shuffleSkus(io, count) {
