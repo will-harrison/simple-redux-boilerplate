@@ -1,12 +1,9 @@
 const r = require('rethinkdb')
 const io = require('socket.io-client')
 
-const socket = io('http://localhost:5001/')
-socket.on('fsa', function socketOn(fsa) {
-  console.log(fsa.type, fsa.payload)
-})
+import { tester } from './saga-io'
 
-
+// createListener('tester')
 // r.connect({ host: '107.170.201.130', port: '28015', db: 'metacog' })
 
 // module.exports = {

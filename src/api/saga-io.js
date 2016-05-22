@@ -1,44 +1,27 @@
+import { take, put } from 'redux-saga'
 import io from 'socket.io-client'
+import Promise from 'bluebird'
 
-import { listnerActions } from './index'
-
-let socket = null
-
-export const init = store => {
-  socket = io()
-
-  socket.on('disconnect', () => {
-    console.warn('Server disconnected')
-    store.dispatch({ type: LEAVE_SESSION })
+function createListener(blah) {
+  const socket = io('http://localhost:5001/')
+  let deferred
+  socket.on('fsa', fsa => {
+    deferred.resolve(JSON.parse(fsa))
+    deferred = null
   })
 
-  const actions = [ listnerActions ]
-
-  actions.forEach(action => {
-    socket.on(action, payload => {
-      store.dispatch(
-        { type: action,
-          payload
-        }
-      )
-    })
-  })
-}
-
-export const socketIOMiddleware = store => next => action => {
-  const result = next(action)
-
-  const actions =[ emitterActions ]
-
-  if (actions.indexOf(action.type) > -1) {
-    const state = store.getState()
-    const sessionId = state.session.id
-    socket.emit(
-      action.type,
-      { sessionId,
-        payload: action.payload
+  return {
+    nextMessage() {
+      if ( ! deferred ) {
+        deferred = {}
+        deferred.promise =
+          new Promise(resolve => deferred.resolve = resolve)
       }
-    )
+      return deferred.promise
+    }
   }
-  return result
 }
+
+
+
+export const tester = createListener('blah')
